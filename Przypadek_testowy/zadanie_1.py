@@ -23,7 +23,7 @@ class zadaniePierwsze(unittest.TestCase):
         self.driver.get("https://buggy-testingcup.pgs-soft.com/")
         # self.driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
 
-    def test_Glasses(self):
+    def test_Dodanie_Do_Koszyka_Glasses(self):
         driver = self.driver
         self.test_open_page()
         # driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
@@ -32,7 +32,7 @@ class zadaniePierwsze(unittest.TestCase):
         driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").send_keys("3")
         driver.find_element_by_xpath("//button[@data-product-name='Okulary']").click()
 
-    def test_Pilka(self):
+    def test_Dodanie_do_koszyka_Pilka(self):
         driver = self.driver
         self.test_open_page()
         # driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
