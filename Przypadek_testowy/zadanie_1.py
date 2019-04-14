@@ -21,12 +21,11 @@ class zadaniePierwsze(unittest.TestCase):
     def test_open_page(self):
         self.driver.maximize_window()
         self.driver.get("https://buggy-testingcup.pgs-soft.com/")
-        # self.driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
+        self.driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
 
     def test_Dodanie_Do_Koszyka_Glasses(self):
         driver = self.driver
         self.test_open_page()
-        # driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
         driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").click()
         driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").clear()
         driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").send_keys("3")
@@ -35,7 +34,6 @@ class zadaniePierwsze(unittest.TestCase):
     def test_Dodanie_do_koszyka_Pilka(self):
         driver = self.driver
         self.test_open_page()
-        # driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
         driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").click()
         driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").clear()
         driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").send_keys("2")
