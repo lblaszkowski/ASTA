@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c67e2c4a-0c1e-44bd-8f6b-2122b46a6436" name="Default" comment="poprawka  modyfikcaja kodu">
+    <list default="true" id="c67e2c4a-0c1e-44bd-8f6b-2122b46a6436" name="Default" comment="poprawka kodu - zadania 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py" afterDir="false" />
     </list>
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="205">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -79,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,7 +96,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,16 +262,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555187379279</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="poprawka kodu - zadania 1">
+      <created>1555270622442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555270622442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze - 2019.04.14 at 21h 11m 15s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze - 2019.04.14 at 21h 14m 14s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze - 2019.04.14 at 21h 14m 39s.xml">
       <configuration name="Unittests for zadanie_1.zadaniePierwsze" configurationId="tests" />
     </history-entry>
@@ -296,6 +297,12 @@
     <history-entry file="Unittests_in_zadanie_1_py - 2019.04.14 at 21h 29m 05s.xml">
       <configuration name="Unittests in zadanie_1.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_zadanie_1_py - 2019.04.15 at 17h 48m 51s.xml">
+      <configuration name="Unittests in zadanie_1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_zadanie_1_py - 2019.04.15 at 17h 49m 52s.xml">
+      <configuration name="Unittests in zadanie_1.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -306,7 +313,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3371105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52549577" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +331,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" modyfikcaja kodu" />
     <MESSAGE value="poprawka  modyfikcaja kodu" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawka  modyfikcaja kodu" />
+    <MESSAGE value="poprawka kodu - zadania 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawka kodu - zadania 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/trojmiasto.pl.py" />
@@ -403,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="205">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>

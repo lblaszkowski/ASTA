@@ -11,32 +11,24 @@ class zadaniePierwsze(unittest.TestCase):
     def setUp(self):
         # self.driver = webdriver.Chrome(executable_path=r'C:\driver_selenium\ChromeDrive_73\chromedriver.exe')
         self.driver = webdriver.Firefox(executable_path=r'C:\driver_selenium\FirefoxDrive_24\geckodriver.exe')
-        # self.driver.maximize_window()
-        # self.driver.get("https://buggy-testingcup.pgs-soft.com/")
+        self.driver.maximize_window()
+        self.driver.get("https://buggy-testingcup.pgs-soft.com/")
+        self.driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
 
     def tearDown(self):
         self.driver.quit()
 
 
-    def test_open_page(self):
-        self.driver.maximize_window()
-        self.driver.get("https://buggy-testingcup.pgs-soft.com/")
-        self.driver.find_element_by_xpath("//*[@class='col-md-6']//*[text()='Zadanie 1']").click()
 
-    def test_Dodanie_Do_Koszyka_Glasses(self):
+    def test_dodanie_do_Koszyka(self):
         driver = self.driver
-        self.test_open_page()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").click()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").clear()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").send_keys("3")
+        okulary = driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").click()
+        okulary.clear()
+        okulary.send_keys("3")
         driver.find_element_by_xpath("//button[@data-product-name='Okulary']").click()
-
-    def test_Dodanie_do_koszyka_Pilka(self):
-        driver = self.driver
-        self.test_open_page()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").click()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").clear()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").send_keys("2")
+        pilka = driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").click()
+        pilka.clear()
+        pilka.send_keys("2")
         driver.find_element_by_xpath("//button[@data-product-price='39.22']").click()
 
 if __name__ == "__main__":
