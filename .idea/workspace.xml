@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c67e2c4a-0c1e-44bd-8f6b-2122b46a6436" name="Default" comment="poprawka kodu - zadania 1">
+    <list default="true" id="c67e2c4a-0c1e-44bd-8f6b-2122b46a6436" name="Default" comment="zadania 1 - poprawka kodu cz 3">
+      <change afterPath="$PROJECT_DIR$/Przypadek_testowy/DodawanieProduktuDoKoszyka.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +15,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py">
+        <entry file="file://$PROJECT_DIR$/Przypadek_testowy/DodawanieProduktuDoKoszyka.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="73">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="23" />
               <folding>
-                <element signature="e#24#39#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,14 +66,15 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/zadanie_1.py" />
         <option value="$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py" />
+        <option value="$PROJECT_DIR$/Przypadek_testowy/DodawanieProduktuDoKoszyka.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="80" />
-    <option name="y" value="375" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -120,28 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in zadanie_1.py">
-    <configuration name="auto_test_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo_test/auto_test_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka">
     <configuration name="trojmiasto.pl" type="PythonConfigurationType" factoryName="Python">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for zadanie_1.zadaniePierwsze" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +154,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;zadanie_1.zadaniePierwsze&quot;" />
+      <option name="_new_target" value="&quot;Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_Dodanie" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,11 +168,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;zadanie_1.zadaniePierwsze.test_Dodanie&quot;" />
+      <option name="_new_target" value="&quot;Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +182,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses&quot;" />
+      <option name="_new_target" value="&quot;Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in zadanie_1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Przypadek_testowy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in DodawanieProduktuDoKoszyka.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,25 +210,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Przypadek_testowy/DodawanieProduktuDoKoszyka.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.trojmiasto.pl" />
-      <item itemvalue="Python.auto_test_2" />
-      <item itemvalue="Python tests.Unittests in zadanie_1.py" />
-      <item itemvalue="Python tests.Unittests for zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses" />
-      <item itemvalue="Python tests.Unittests for zadanie_1.zadaniePierwsze.test_Dodanie" />
-      <item itemvalue="Python tests.Unittests for zadanie_1.zadaniePierwsze" />
+      <item itemvalue="Python tests.Unittests in DodawanieProduktuDoKoszyka.py" />
+      <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" />
+      <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" />
+      <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" />
+      <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in zadanie_1.py" />
-        <item itemvalue="Python tests.Unittests for zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses" />
-        <item itemvalue="Python tests.Unittests for zadanie_1.zadaniePierwsze" />
-        <item itemvalue="Python tests.Unittests for zadanie_1.zadaniePierwsze.test_Dodanie" />
-        <item itemvalue="Python.auto_test_2" />
+        <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka" />
+        <item itemvalue="Python tests.Unittests in DodawanieProduktuDoKoszyka.py" />
+        <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" />
+        <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" />
+        <item itemvalue="Python tests.Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze" />
       </list>
     </recent_temporary>
   </component>
@@ -269,39 +264,53 @@
       <option name="project" value="LOCAL" />
       <updated>1555270622442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zadania 1 - poprawka kodu cz 2">
+      <created>1555343478938</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555343478938</updated>
+    </task>
+    <task id="LOCAL-00005" summary="zadania 1 - poprawka kodu cz 3">
+      <created>1555345304068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555345304068</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze - 2019.04.14 at 21h 14m 39s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze" configurationId="tests" />
+    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 20h 14m 24s.xml">
+      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze - 2019.04.14 at 21h 17m 15s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze" configurationId="tests" />
+    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 20h 21m 38s.xml">
+      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze - 2019.04.14 at 21h 18m 01s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze" configurationId="tests" />
+    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 20h 24m 27s.xml">
+      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_Dodanie_Do_Koszyka_Glasses - 2019.04.14 at 21h 20m 05s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses" configurationId="tests" />
+    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 20h 31m 55s.xml">
+      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_Dodanie_Do_Koszyka_Glasses - 2019.04.14 at 21h 21m 41s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses" configurationId="tests" />
+    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 20h 45m 52s.xml">
+      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_Dodanie_Do_Koszyka_Glasses - 2019.04.14 at 21h 22m 04s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses" configurationId="tests" />
+    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 21h 03m 14s.xml">
+      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_zadanie_1_zadaniePierwsze_test_Dodanie_Do_Koszyka_Glasses - 2019.04.14 at 21h 28m 34s.xml">
-      <configuration name="Unittests for zadanie_1.zadaniePierwsze.test_Dodanie_Do_Koszyka_Glasses" configurationId="tests" />
+    <history-entry file="Unittests_for_Przypadek_testowy_DodawanieProduktuDoKoszyka_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 21h 05m 58s.xml">
+      <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_zadanie_1_py - 2019.04.14 at 21h 29m 05s.xml">
-      <configuration name="Unittests in zadanie_1.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Przypadek_testowy_DodawanieProduktuDoKoszyka_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 21h 07m 35s.xml">
+      <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_zadanie_1_py - 2019.04.15 at 17h 48m 51s.xml">
-      <configuration name="Unittests in zadanie_1.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Przypadek_testowy_DodawanieProduktuDoKoszyka_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 21h 08m 27s.xml">
+      <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_zadanie_1_py - 2019.04.15 at 17h 49m 52s.xml">
-      <configuration name="Unittests in zadanie_1.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Przypadek_testowy_DodawanieProduktuDoKoszyka_zadaniePierwsze_test_dodanie_do_koszyka - 2019.04.15 at 21h 14m 07s.xml">
+      <configuration name="Unittests for Przypadek_testowy.DodawanieProduktuDoKoszyka.zadaniePierwsze.test_dodanie_do_koszyka" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -313,7 +322,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52549577" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3385269" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,7 +341,9 @@
     <MESSAGE value=" modyfikcaja kodu" />
     <MESSAGE value="poprawka  modyfikcaja kodu" />
     <MESSAGE value="poprawka kodu - zadania 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawka kodu - zadania 1" />
+    <MESSAGE value="zadania 1 - poprawka kodu cz 2" />
+    <MESSAGE value="zadania 1 - poprawka kodu cz 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="zadania 1 - poprawka kodu cz 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/trojmiasto.pl.py" />
@@ -404,17 +415,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zadanie_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Przypadek_testowy/zadanie_1.py">
+    <entry file="file://$PROJECT_DIR$/Przypadek_testowy/DodawanieProduktuDoKoszyka.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="73">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="23" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
