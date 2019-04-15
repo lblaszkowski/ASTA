@@ -7,6 +7,7 @@ from time import sleep
 
 
 
+
 class zadaniePierwsze(unittest.TestCase):
     def setUp(self):
         # self.driver = webdriver.Chrome(executable_path=r'C:\driver_selenium\ChromeDrive_73\chromedriver.exe')
