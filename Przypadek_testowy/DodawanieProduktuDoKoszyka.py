@@ -20,36 +20,56 @@ class zadaniePierwsze(unittest.TestCase):
 
     def test_dodanie_do_koszyka(self):
         driver = self.driver
-        okulary = driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input").click()
+        okulary = driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input")
         okulary.clear()
         okulary.send_keys("3")
         driver.find_element_by_xpath("//button[@data-product-name='Okulary']").click()
 
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").click()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").clear()
-        driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input").send_keys("2")
+        pilka = driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(2)>div>div>div>input")
+        pilka.clear()
+        pilka.send_keys("2")
         driver.find_element_by_xpath("//button[@data-product-price='39.22']").click()
-        driver.find_element_by_css_selector("div:nth-child(3)>div:nth-child(3)>div>div>div>input").clear()
-        driver.find_element_by_css_selector("div:nth-child(3)>div:nth-child(3)>div>div>div>input").send_keys("1")
+
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        zeszyt = driver.find_element_by_css_selector("div:nth-child(3)>div:nth-child(3)>div>div>div>input")
+        zeszyt.clear()
+        zeszyt.send_keys("1")
         driver.find_element_by_xpath("//button[@data-product-name='Zeszyt']").click()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[3]/div[4]/div/div/div/input").clear()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[3]/div[4]/div/div/div/input").send_keys("4")
+
+        kostka = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[3]/div[4]/div/div/div/input")
+        kostka.clear()
+        kostka.send_keys("4")
         driver.find_element_by_xpath("//button[@data-product-name='Kostka']").click()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[2]/div/div/div/input").clear()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[2]/div/div/div/input").send_keys("8")
+
+        kamera = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[2]/div/div/div/input")
+        kamera.clear()
+        kamera. send_keys("8")
         driver.find_element_by_xpath("//button[@data-product-name='Kamera']").click()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[1]/div/div/div/input").clear()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[1]/div/div/div/input").send_keys("5")
+
+        sluchawki = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[1]/div/div/div/input")
+        sluchawki.clear()
+        sluchawki.send_keys("5")
         driver.find_element_by_xpath("//button[@data-product-name='Słuchawki']").click()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[1]/div[4]/div/div/div/input").clear()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[1]/div[4]/div/div/div/input").send_keys("7")
+
+        kabel = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[1]/div[4]/div/div/div/input")
+        kabel.clear()
+        kabel.send_keys("7")
         driver.find_element_by_xpath("//button[@data-product-name='Kabel']").click()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[3]/div/div/div/input").clear()
-        driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[3]/div/div/div/input").send_keys("9")
+
+        aparat = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[3]/div/div/div/input")
+        aparat.clear()
+        aparat.send_keys("9")
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         driver.find_element_by_xpath("//button[@data-product-name='Aparat']").click()
         sleep(5)
+
+        print(driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(1)>span").text)
+        assert driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(1)>span").text == "36"
+
+        print(driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(2)>span").text)
+        assert driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(2)>span").text == "1317.33 zł"
+
+
 
 if __name__ == "__main__":
     unittest.main()
