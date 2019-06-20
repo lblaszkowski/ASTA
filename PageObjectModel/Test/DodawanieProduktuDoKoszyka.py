@@ -7,9 +7,11 @@ url = 'https://buggy-testingcup.pgs-soft.com/'
 
 class zadaniePierwsze(unittest.TestCase):
 
+
+
     def setUp(self):
-        # self.driver = webdriver.Chrome(executable_path=r'C:\driver_selenium\ChromeDrive_73\chromedriver.exe')
-        self.driver = webdriver.Firefox(executable_path=r'C:\driver_selenium\FirefoxDrive_24\geckodriver.exe')
+        self.driver = webdriver.Chrome(executable_path=r'C:\driver_selenium\ChromeDrive_74\chromedriver.exe')
+        # self.driver = webdriver.Firefox(executable_path=r'C:\driver_selenium\FirefoxDrive_24\geckodriver.exe')
         self.driver.maximize_window()
         self.driver.get(url + 'task_1')
 

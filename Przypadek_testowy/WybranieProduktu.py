@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
 szukanie_sport = "Sport"
-szukanie_elektronika = "Elektronika"
 url = 'https://buggy-testingcup.pgs-soft.com/'
 
 
@@ -23,22 +22,19 @@ class zadanieDrugie(unittest.TestCase):
 
     def test_WybranieDowolnegoProduktu(self):
         driver = self.driver
-        # driver.find_element_by_xpath("//span[contains(@class,'placeholder')]").click()
-        # driver.find_element_by_xpath("//input[@autocorrect='off']").send_keys(szukanie_sport)
-        # driver.find_element_by_xpath("//input[@autocorrect='off']").send_keys(Keys.ENTER)
-        # sleep(3)
-        # driver.find_element_by_xpath("//span[@title='Sport']").click()
-        # driver.find_element_by_xpath("//input[@autocorrect='off']").send_keys(szukanie_elektronika)
-        # driver.find_element_by_xpath("//input[@autocorrect='off']").send_keys(Keys.ENTER)
+        element = driver.find_element_by_xpath("//span[contains(@class,'placeholder')]")
+        element.click()
+        element1 = driver.find_element_by_xpath("//input[@autocorrect='off']")
+        element1.send_keys(szukanie_sport)
+        element1.send_keys(Keys.ENTER)
+        sleep(3)
 
-        select = Select(driver.find_element_by_class_name("js-category-select"))
-        select .select_by_value("Firma i usługi")
-        select.click()
-        #
-        # select = Select(driver.find_element_by_class_name("js-category-select"))
-        # select.select_by_index(1)
-        #
-        # select = Select(driver.find_element_by_class_name("js-category-select"))
-        # select.select_by_visible_text("Firma i usługi")
+        # element = Select(driver.find_element_by_class_name("js-category-select select2-hidden-accessible"))
+        # # element = Select(driver.find_element_by_xpath("//span[@title='Sport']"))
+        # # element.select_by_value("Sport")
+        # # element.select_by_index(1)
+        # element.select_by_visible_text("Sport")
+        # element.click()
+        # sleep(10)
 
 
