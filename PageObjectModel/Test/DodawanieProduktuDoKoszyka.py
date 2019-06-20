@@ -9,18 +9,27 @@ class zadaniePierwsze(unittest.TestCase):
 
 
 
-    def setUp(self):
-        self.driver = webdriver.Chrome(executable_path=r'C:\driver_selenium\ChromeDrive_74\chromedriver.exe')
-        # self.driver = webdriver.Firefox(executable_path=r'C:\driver_selenium\FirefoxDrive_24\geckodriver.exe')
-        self.driver.maximize_window()
-        self.driver.get(url + 'task_1')
+    def setUp(self, browser="mozilla"):
+        if browser == "chrome":
+            self.driver = webdriver.Chrome(executable_path=r'../Drivers/ChromeDrive_74/chromedriver.exe')
+            self.driver.maximize_window()
+            self.driver.get(url + 'task_1')
+        elif browser == "mozilla":
+            self.driver = webdriver.Firefox(executable_path=r'../Drivers/FirefoxDrive_24/geckodriver.exe')
+            self.driver.maximize_window()
+            self.driver.get(url + 'task_1')
+        else:
+            print("Brak przeglądarki")
+            raise Exception("Brak przeglądarki")
+        return self.driver
 
 
     def tearDown(self):
+        self.driver.close()
         self.driver.quit()
 
 
-    def test_dodanie_do_koszyka(self):
+def test_dodanie_do_koszyka(self):
         driver = self.driver
         okulary = driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input")
         okulary.clear()
