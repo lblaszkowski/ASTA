@@ -9,15 +9,15 @@ class zadaniePierwsze(unittest.TestCase):
 
 
 
-    def setUp(self, browser="chrome"):
+    def setUp(self, browser="chrome", task="task_1"):
         if browser == "chrome":
             self.driver = webdriver.Chrome(executable_path=r'../Drivers/ChromeDrive_74/chromedriver.exe')
             self.driver.maximize_window()
-            self.driver.get(url + 'task_1')
+            self.driver.get(url + task)
         elif browser == "mozilla":
             self.driver = webdriver.Firefox(executable_path=r'../Drivers/FirefoxDrive_24/geckodriver.exe')
             self.driver.maximize_window()
-            self.driver.get(url + 'task_1')
+            self.driver.get(url + task)
         else:
             print("Brak przeglądarki")
             raise Exception("Brak przeglądarki")
