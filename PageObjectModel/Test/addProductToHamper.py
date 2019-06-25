@@ -5,11 +5,11 @@ from time import sleep
 url = 'https://buggy-testingcup.pgs-soft.com/'
 
 
-class zadaniePierwsze(unittest.TestCase):
+class AddProductToHamperPage(unittest.TestCase):
 
 
 
-    def setUp(self, browser="chrome", task="task_1"):
+    def setUp(self, browser="mozilla", task="task_1"):
         if browser == "chrome":
             self.driver = webdriver.Chrome(executable_path=r'../Drivers/ChromeDrive_74/chromedriver.exe')
             self.driver.maximize_window()
@@ -28,7 +28,7 @@ class zadaniePierwsze(unittest.TestCase):
         self.driver.close()
         self.driver.quit()
 
-    def test_dodanie_do_koszyka(self):
+    def test_AddProductToHamper(self):
         driver = self.driver
         okulary = driver.find_element_by_css_selector("div:nth-child(1)>div:nth-child(1)>div>div>div>input")
         okulary.clear()

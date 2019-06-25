@@ -4,7 +4,7 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
-szukanie_sport = "Sport"
+
 url = 'https://buggy-testingcup.pgs-soft.com/'
 
 
@@ -29,7 +29,7 @@ class zadanieDrugie(unittest.TestCase):
         self.driver.close()
         self.driver.quit()
 
-    def test_WybranieDowolnegoProduktu(self):
+    def test_WybranieDowolnegoProduktu(self, szukanie_sport="Sport"):
         driver = self.driver
         element = driver.find_element_by_xpath("//span[contains(@class,'placeholder')]")
         element.click()
