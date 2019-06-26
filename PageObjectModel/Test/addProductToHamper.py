@@ -8,7 +8,6 @@ url = 'https://buggy-testingcup.pgs-soft.com/'
 class AddProductToHamperPage(unittest.TestCase):
 
 
-
     def setUp(self, browser="mozilla", task="task_1"):
         if browser == "chrome":
             self.driver = webdriver.Chrome(executable_path=r'../Drivers/ChromeDrive_74/chromedriver.exe')

@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 url = 'https://buggy-testingcup.pgs-soft.com/'
 
 
-class zadanieDrugie(unittest.TestCase):
+class ChoosingProductPage(unittest.TestCase):
 
     def setUp(self, browser="chrome", task="task_2"):
         if browser == "chrome":
@@ -29,7 +29,7 @@ class zadanieDrugie(unittest.TestCase):
         self.driver.close()
         self.driver.quit()
 
-    def test_WybranieDowolnegoProduktu(self, szukanie_sport="Sport"):
+    def test_ChoosingProduct(self, szukanie_sport="Sport"):
         driver = self.driver
         element = driver.find_element_by_xpath("//span[contains(@class,'placeholder')]")
         element.click()

@@ -7,9 +7,9 @@ from selenium.webdriver.support.ui import Select
 url = 'https://buggy-testingcup.pgs-soft.com/'
 
 
-class zadanieDrugie(unittest.TestCase):
+class AddAndEditionDataPage(unittest.TestCase):
 
-    def setUp(self, browser="chrome", task="task_3"):
+    def setUp(self, browser="mozilla", task="task_3"):
         if browser == "chrome":
             self.driver = webdriver.Chrome(executable_path=r'../Drivers/ChromeDrive_74/chromedriver.exe')
             self.driver.maximize_window()
@@ -28,7 +28,7 @@ class zadanieDrugie(unittest.TestCase):
         self.driver.close()
         self.driver.quit()
 
-    def test_add_and_edition_data(self):
+    def test_AddAndEditionData(self):
         driver = self.driver
         driver.find_element_by_class_name("menu-border").click()
         #driver.find_element_by_class_name("dropdown-toggle").click()
