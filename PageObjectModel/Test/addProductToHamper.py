@@ -31,15 +31,16 @@ class AddProductToHamper_Page(unittest.TestCase):
 
     def test_AddProductToHamper(self):
         addProduct = AddProductToHamperPage(self.driver)
-        addProduct.glasses_product()
-        addProduct.ball__product()
-        addProduct.notebook_product()
-        addProduct.ankle_product()
-        addProduct.camera_product()
-        addProduct.headphones_product()
-        addProduct.cable_product()
-        addProduct.theCamera_product()
-
+        addProduct.glasses_product("3")
+        addProduct.ball_product("2")
+        addProduct.notebook_product("1")
+        addProduct.ankle_product("4")
+        addProduct.camera_product("8")
+        addProduct.headphones_product("5")
+        addProduct.cable_product("7")
+        addProduct.theCamera_product("9")
+        addProduct.theTotalNumberOf_products()
+        addProduct.toPay()
 
 if __name__ == "__main__":
     unittest.main()
