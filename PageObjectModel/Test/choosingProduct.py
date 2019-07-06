@@ -1,21 +1,17 @@
 import unittest
 from selenium import webdriver
-from time import sleep
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
-
+from PageObjectModel.Pages.addChoosingProductPage import AddChoosingProductPage
 
 url = 'https://buggy-testingcup.pgs-soft.com/'
 
-
 class ChoosingProductPage(unittest.TestCase):
 
-    def setUp(self, browser="chrome", task="task_2"):
-        if browser == "chrome":
+    def setUp(self, browser="ff",  task="task_2"):
+        if browser == "chrome" or browser == "ch":
             self.driver = webdriver.Chrome(executable_path=r'../Drivers/ChromeDrive_74/chromedriver.exe')
             self.driver.maximize_window()
             self.driver.get(url + task)
-        elif browser == "mozilla":
+        elif browser == "mozilla" or browser == "ff":
             self.driver = webdriver.Firefox(executable_path=r'../Drivers/FirefoxDrive_24/geckodriver.exe')
             self.driver.maximize_window()
             self.driver.get(url + task)
@@ -29,21 +25,14 @@ class ChoosingProductPage(unittest.TestCase):
         self.driver.close()
         self.driver.quit()
 
-    def test_ChoosingProduct(self, szukanie_sport="Sport"):
-        driver = self.driver
-        element = driver.find_element_by_xpath("//span[contains(@class,'placeholder')]")
-        element.click()
-        element1 = driver.find_element_by_xpath("//input[@autocorrect='off']")
-        element1.send_keys(szukanie_sport)
-        element1.send_keys(Keys.ENTER)
-        sleep(3)
+    def test_ChoosingProduct(self):
+        SearchElement = AddChoosingProductPage(self.driver)
+        SearchElement.elementSelectionInPage()
+        SearchElement.searchInSportPage("Sport")
 
-        # element = Select(driver.find_element_by_class_name("js-category-select select2-hidden-accessible"))
-        # # element = Select(driver.find_element_by_xpath("//span[@title='Sport']"))
-        # # element.select_by_value("Sport")
-        # # element.select_by_index(1)
-        # element.select_by_visible_text("Sport")
-        # element.click()
-        # sleep(10)
+
+
+
+
 
 

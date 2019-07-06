@@ -1,6 +1,5 @@
 import unittest
 from selenium import webdriver
-from time import sleep
 from PageObjectModel.Pages.addProductToHamperPage import AddProductToHamperPage
 
 
@@ -11,11 +10,11 @@ class AddProductToHamper_Page(unittest.TestCase):
 
     @classmethod
     def setUp(self, browser="mozilla", task="task_1"):
-        if browser == "chrome":
+        if browser == "chrome" or browser == "ch":
             self.driver = webdriver.Chrome(executable_path=r'../Drivers/ChromeDrive_74/chromedriver.exe')
             self.driver.maximize_window()
             self.driver.get(url + task)
-        elif browser == "mozilla":
+        elif browser == "mozilla" or browser == "ff":
             self.driver = webdriver.Firefox(executable_path=r'../Drivers/FirefoxDrive_24/geckodriver.exe')
             self.driver.maximize_window()
             self.driver.get(url + task)
