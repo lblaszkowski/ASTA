@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c67e2c4a-0c1e-44bd-8f6b-2122b46a6436" name="Default" comment="Poprawka nazewnictwa z polskiego - Wybranie Produktu i Dodać i Edytować Dane na angielski - &#10;Choosing Product and Add And Edition Data">
-      <change afterPath="$PROJECT_DIR$/PageObjectModel/Locators/locators_addProductToHamperPage.py" afterDir="false" />
+    <list default="true" id="c67e2c4a-0c1e-44bd-8f6b-2122b46a6436" name="Default" comment="Przebudowa pliku testowego addProductToHamper na standardy POM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjectModel/Locators/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjectModel/Locators/locators_addProductToHamperPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjectModel/Locators/locators_addProductToHamperPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjectModel/Pages/addProductToHamperPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjectModel/Pages/addProductToHamperPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageObjectModel/Test/addProductToHamper.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjectModel/Test/addProductToHamper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageObjectModel/Test/addProductToHamper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="291">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PageObjectModel/Pages/addProductToHamperPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="1207">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageObjectModel/Locators/locators_addProductToHamperPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="573">
+              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -108,9 +108,9 @@
         <option value="$PROJECT_DIR$/PageObjectModel/Test/addAndEditionData.py" />
         <option value="$PROJECT_DIR$/PageObjectModel/Pages/AddProductToHamperPage.py" />
         <option value="$PROJECT_DIR$/PageObjectModel/Locators/locators.py" />
-        <option value="$PROJECT_DIR$/PageObjectModel/Test/addProductToHamper.py" />
         <option value="$PROJECT_DIR$/PageObjectModel/Locators/locators_addProductToHamperPage.py" />
         <option value="$PROJECT_DIR$/PageObjectModel/Pages/addProductToHamperPage.py" />
+        <option value="$PROJECT_DIR$/PageObjectModel/Test/addProductToHamper.py" />
       </list>
     </option>
   </component>
@@ -125,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper">
+  <component name="RunManager" selected="Python tests.Unittests for addProductToHamper.AddProductToHamper_Page">
     <configuration name="addProductToHamperPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,16 +287,16 @@
     </configuration>
     <list>
       <item itemvalue="Python.trojmiasto.pl" />
+      <item itemvalue="Python.addProductToHamperPage" />
       <item itemvalue="Python tests.Unittests for PageObjectModel.Test.addProductToHamper.AddProductToHamper_Page" />
       <item itemvalue="Python tests.Unittests for PageObjectModel.Test.addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" />
       <item itemvalue="Python tests.Unittests for addProductToHamper.AddProductToHamper_Page" />
       <item itemvalue="Python tests.Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" />
-      <item itemvalue="Python.addProductToHamperPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" />
         <item itemvalue="Python tests.Unittests for addProductToHamper.AddProductToHamper_Page" />
+        <item itemvalue="Python tests.Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" />
         <item itemvalue="Python.addProductToHamperPage" />
         <item itemvalue="Python tests.Unittests for PageObjectModel.Test.addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" />
         <item itemvalue="Python tests.Unittests for PageObjectModel.Test.addProductToHamper.AddProductToHamper_Page" />
@@ -405,19 +405,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561580875487</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Przebudowa pliku testowego addProductToHamper na standardy POM">
+      <created>1562363720614</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562363720614</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_addProductToHamper_AddProductToHamperPage_test_AddProductToHamper - 2019.07.05 at 17h 50m 14s.xml">
-      <configuration name="Unittests for addProductToHamper.AddProductToHamperPage.test_AddProductToHamper" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_addProductToHamper_AddProductToHamper_Page - 2019.07.05 at 22h 55m 47s.xml">
-      <configuration name="Unittests for addProductToHamper.AddProductToHamper_Page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_addProductToHamper_AddProductToHamper_Page - 2019.07.05 at 22h 56m 22s.xml">
-      <configuration name="Unittests for addProductToHamper.AddProductToHamper_Page" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_addProductToHamper_AddProductToHamper_Page_test_AddProductToHamper - 2019.07.05 at 23h 27m 19s.xml">
       <configuration name="Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" configurationId="tests" />
     </history-entry>
@@ -439,17 +437,26 @@
     <history-entry file="Unittests_for_addProductToHamper_AddProductToHamper_Page_test_AddProductToHamper - 2019.07.05 at 23h 45m 38s.xml">
       <configuration name="Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_addProductToHamper_AddProductToHamper_Page_test_AddProductToHamper - 2019.07.06 at 06h 01m 40s.xml">
+      <configuration name="Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_addProductToHamper_AddProductToHamper_Page_test_AddProductToHamper - 2019.07.06 at 06h 26m 07s.xml">
+      <configuration name="Unittests for addProductToHamper.AddProductToHamper_Page.test_AddProductToHamper" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_addProductToHamper_AddProductToHamper_Page - 2019.07.06 at 09h 04m 28s.xml">
+      <configuration name="Unittests for addProductToHamper.AddProductToHamper_Page" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2280238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2280238" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4362606" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3753541" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,7 +485,8 @@
     <MESSAGE value="Dodanie zmiennej  &quot;task&quot; do url" />
     <MESSAGE value="Poprawka nazewnictwa z polskiego - Dodawanie Produktu Do Koszyka na angielski - AddProductToHamper" />
     <MESSAGE value="Poprawka nazewnictwa z polskiego - Wybranie Produktu i Dodać i Edytować Dane na angielski - &#10;Choosing Product and Add And Edition Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawka nazewnictwa z polskiego - Wybranie Produktu i Dodać i Edytować Dane na angielski - &#10;Choosing Product and Add And Edition Data" />
+    <MESSAGE value="Przebudowa pliku testowego addProductToHamper na standardy POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Przebudowa pliku testowego addProductToHamper na standardy POM" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Tables-U.py" />
@@ -492,13 +500,6 @@
     <entry file="file://$PROJECT_DIR$/demo_test/auto_test_1.py" />
     <entry file="file://$PROJECT_DIR$/testjeden/testdwa.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/zadanie_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zadanie_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -568,10 +569,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageObjectModel/Test/choosingProduct.py">
+    <entry file="file://$PROJECT_DIR$/zadanie_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObjectModel/Locators/locators_addProductToHamperPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObjectModel/Test/addProductToHamper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -580,7 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PageObjectModel/Test/addAndEditionData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="53">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -588,27 +603,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageObjectModel/Locators/locators_addProductToHamperPage.py">
+    <entry file="file://$PROJECT_DIR$/PageObjectModel/Test/choosingProduct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PageObjectModel/Pages/addProductToHamperPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObjectModel/Test/addProductToHamper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1207">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
         </state>
       </provider>
     </entry>

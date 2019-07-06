@@ -3,6 +3,7 @@ from selenium import webdriver
 from time import sleep
 from PageObjectModel.Pages.addProductToHamperPage import AddProductToHamperPage
 
+
 url = 'https://buggy-testingcup.pgs-soft.com/'
 
 
@@ -33,46 +34,11 @@ class AddProductToHamper_Page(unittest.TestCase):
         addProduct.glasses_product()
         addProduct.ball__product()
         addProduct.notebook_product()
-
-
-
-
-
-
-        #
-        # kostka = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[3]/div[4]/div/div/div/input")
-        # kostka.clear()
-        # kostka.send_keys("4")
-        # driver.find_element_by_xpath("//button[@data-product-name='Kostka']").click()
-        #
-        # kamera = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[2]/div/div/div/input")
-        # kamera.clear()
-        # kamera. send_keys("8")
-        # driver.find_element_by_xpath("//button[@data-product-name='Kamera']").click()
-        #
-        # sluchawki = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[1]/div/div/div/input")
-        # sluchawki.clear()
-        # sluchawki.send_keys("5")
-        # driver.find_element_by_xpath("//button[@data-product-name='Słuchawki']").click()
-        #
-        # kabel = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[1]/div[4]/div/div/div/input")
-        # kabel.clear()
-        # kabel.send_keys("7")
-        # driver.find_element_by_xpath("//button[@data-product-name='Kabel']").click()
-        #
-        # aparat = driver.find_element_by_xpath("html/body/div[1]/div/div[2]/div[1]/form/div[2]/div[3]/div/div/div/input")
-        # aparat.clear()
-        # aparat.send_keys("9")
-        # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        # driver.find_element_by_xpath("//button[@data-product-name='Aparat']").click()
-        # sleep(5)
-        #
-        # print(driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(1)>span").text)
-        # assert driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(1)>span").text == "36"
-        #
-        # print(driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(2)>span").text)
-        # assert driver.find_element_by_css_selector("div.col-md-12.basket-summary>p:nth-child(2)>span").text == "1317.33 zł"
-
+        addProduct.ankle_product()
+        addProduct.camera_product()
+        addProduct.headphones_product()
+        addProduct.cable_product()
+        addProduct.theCamera_product()
 
 
 if __name__ == "__main__":

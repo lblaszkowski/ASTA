@@ -27,3 +27,66 @@ class AddProductToHamperPage():
         add_notebook.send_keys("1")
         notebook_click = self.driver.find_element_by_xpath(Locators.notebook_click_xpath)
         notebook_click.click()
+
+    def ankle_product(self):
+        add_ankle = self.driver.find_element_by_xpath(Locators.add_ankle_xpath)
+        add_ankle.clear()
+        add_ankle.send_keys("4")
+        ankle_click = self.driver.find_element_by_xpath(Locators.ankle_click_xpath)
+        ankle_click .click()
+
+    def camera_product(self):
+        add_camera = self.driver.find_element_by_xpath(Locators.add_camera_xpath)
+        add_camera.clear()
+        add_camera.send_keys("8")
+        camera_click = self.driver.find_element_by_xpath(Locators.camera_click_xpath)
+        camera_click.click()
+
+    def headphones_product(self):
+        add_headphones = self.driver.find_element_by_xpath(Locators.add_headphones_xpath)
+        add_headphones.clear()
+        add_headphones.send_keys("5")
+        headphones_click = self.driver.find_element_by_xpath(Locators.headphones_click_xpath)
+        headphones_click.click()
+
+    def cable_product(self):
+        add_cable = self.driver.find_element_by_xpath(Locators.add_cable_xpath)
+        add_cable.clear()
+        add_cable.send_keys("7")
+        cable_click = self.driver.find_element_by_xpath(Locators.cable_click_xpath)
+        cable_click.click()
+
+    def theCamera_product(self):
+        add_theCamera = self.driver.find_element_by_xpath(Locators.add_theCamera_xpath)
+        add_theCamera.clear()
+        add_theCamera.send_keys("9")
+        self.driver.execute_script(Locators.execute_script)
+        theCamera_click = self.driver.find_element_by_xpath(Locators.theCamera_click_xpath)
+        theCamera_click.click()
+
+    def theTotalNumberOf_products(self):
+        print(self.driver.find_element_by_css_selector(Locators.theTotalNumberOf_products_text).text)
+        assert self.driver.find_element_by_css_selector(Locators.theTotalNumberOf_products_text).text == "36"
+
+    def toPay(self):
+        print(self.driver.find_element_by_css_selector(Locators.toPay_text).text)
+        assert self.driver.find_element_by_css_selector(Locators.toPay_text).text == "1317.33 zł"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
