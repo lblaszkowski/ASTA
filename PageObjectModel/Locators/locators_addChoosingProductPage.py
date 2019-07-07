@@ -5,3 +5,5 @@ class Locators():
 
     #Szukanie Sport
     searchInSport_xpath = "//input[@autocorrect='off']"
+
+
