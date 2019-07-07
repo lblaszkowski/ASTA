@@ -31,7 +31,14 @@ class AddAndEditionDataPage(unittest.TestCase):
         AddandEditionData = AddAndEditionData_Page(self.driver)
         AddandEditionData.menuButtonClick()
         AddandEditionData.dropdownMenuClick()
-        # AddandEditionData.editFile()
+        AddandEditionData.editFile()
+        AddandEditionData.fieldName("Jan")
+        AddandEditionData.fieldSurname("Nowak")
+        AddandEditionData.fieldNotes("Testowy napis")
+        AddandEditionData.fieldPhone("10981234098")
+        AddandEditionData.fieldImage()
+        AddandEditionData.saveButton()
+
 
 
 
